@@ -13,8 +13,13 @@ class Student
   
   def self.create_table
     
-    <<- SQL 
-      CREATE TABLE IF NOT EXITS 
+    sql =  <<- SQL 
+        CREATE TABLE IF NOT EXITS students (
+        id INTEGER PRIMARY KEY,
+        name TEXT,
+        grade TEXT
+        )
+        SQL
   end
   
 end
