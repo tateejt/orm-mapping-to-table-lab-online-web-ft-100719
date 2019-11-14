@@ -11,4 +11,10 @@ class Student
     @grade = grade
   end
   
+  def self.create_table
+    
+    <<- SQL 
+      CREATE TABLE IF NOT EXITS 
+  end
+  
 end
