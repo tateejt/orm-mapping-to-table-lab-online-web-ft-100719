@@ -13,8 +13,8 @@ class Student
   
   def self.create_table
     
-    <<- SQL 
-      CREATE TABLE IF NOT EXITS 
+    # <<- SQL 
+    #   CREATE TABLE IF NOT EXITS 
   end
   
 end
